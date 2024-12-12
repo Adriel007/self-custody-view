@@ -1,0 +1,36 @@
+{
+  "name": "self-custody-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.view.self-custody",
+    "icon": "assets/icon",
+    "productName": "Self-Custody-View",
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "app.js",
+      "index.html",
+      "style.css"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "Utility"
+    }
+  }
+}

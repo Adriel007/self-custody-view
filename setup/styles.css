@@ -1,0 +1,41 @@
+body {
+    overflow: hidden;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#container,
+label,
+label h3 {
+    transition: all .4s ease-in-out;
+}
+
+#container {
+    transform: translateX(100%);
+}
+
+label:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+label:hover h3 {
+    text-decoration: underline;
+}
+
+.active {
+    transform: scale(1.2);
+}
+
+.fs-10 {
+    font-size: 100px;
+}
+
+.wh-fixed {
+    width: 150px;
+    height: 150px;
+}
