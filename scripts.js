@@ -11,7 +11,7 @@
       if (data.firstLogin) {
         window.location.href = "setup/setup.html";
       } else {
-        window.location.href = "home/home.html";
+        window.location.href = `home/home-${data.language}.html`;
       }
     }, 3000);
   }, 4000);
