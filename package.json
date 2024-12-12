@@ -1,7 +1,6 @@
 {
   "name": "self-custody-view",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "electron .",
@@ -32,5 +31,14 @@
       "target": "AppImage",
       "category": "Utility"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriel007/self-custody-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriel007/self-custody-view/issues"
+  },
+  "homepage": "https://github.com/adriel007/self-custody-view#readme",
+  "description": ""
 }
